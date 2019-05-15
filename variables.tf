@@ -1,4 +1,4 @@
-variable "ubuntu_trusty" {
+variable "ubuntu_trustyx" {
 	type = "string"
 	description =" ubuntu image on AWS AMI ID "
 	default = "ami-68bd8f75"
