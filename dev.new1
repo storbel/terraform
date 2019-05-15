@@ -1,0 +1,10 @@
+---
+
+
+
+ hosts: '{{scope}}'
+ tasks:
+   - name: task1
+     package: net-tools
+     state: present
+

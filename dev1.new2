@@ -1,0 +1,10 @@
+---
+
+
+
+ hosts: '{{scope}}'
+ tasks:
+   - name: task2
+     package: docker
+     state: present
+
