@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  remote_user: yourname
+  tasks:
+    - service:
+        name: nginx
+        state: started
+      become: yes
+      become_method: sudo
