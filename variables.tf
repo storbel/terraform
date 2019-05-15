@@ -7,5 +7,5 @@ variable "ubuntu_trusty" {
 variable "redhat_rhel7" {
 	type = "string"
 	description =" redhat image on AWS AMI ID "
-	default = "ami-0e258161"
+	default = "ami-0e258162"
 }
